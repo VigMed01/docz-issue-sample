@@ -1,0 +1,24 @@
+---
+name: Home
+route: /
+---
+import { Playground, Props } from 'docz';
+// Components
+import Logo from './components/alert/alert.js';
+// Theming
+import { ThemeProvider, createGlobalStyle } from 'styled-components';
+import themeTest from './theming/themeTest.js'
+
+# Sample DocZ Babel Issue
+## Built with React and DocZ
+
+* This is a sample project showing the issue of not being able to get babel to function correctly.
+
+## Logo
+<Props of={Logo} />
+
+<Playground>
+    <ThemeProvider theme={themeTest}>
+        <Logo />
+    </ThemeProvider>
+</Playground>

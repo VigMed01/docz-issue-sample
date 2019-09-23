@@ -1,0 +1,49 @@
+{
+    "name": "docz-issue-sample",
+    "version": "0.0.1",
+    "description": "Sample Issue to get Babel config working with DocZ 2.0",
+    "main": "./src/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "docz:dev": "docz dev",
+      "docz:build": "docz build"
+    },
+    "keywords": [],
+    "author": "VigMed01",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/cli": "^7.4.4",
+      "@babel/core": "^7.4.4",
+      "@babel/plugin-proposal-class-properties": "^7.4.4",
+      "@babel/plugin-proposal-export-default-from": "^7.2.0",
+      "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+      "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+      "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+      "@babel/polyfill": "^7.4.4",
+      "@babel/preset-env": "^7.4.4",
+      "@babel/preset-flow": "^7.0.0",
+      "@babel/preset-react": "^7.0.0",
+      "babel-core": "^6.26.3",
+      "babel-eslint": "^10.0.1",
+      "babel-loader": "^8.0.5",
+      "babel-plugin-import": "^1.11.0",
+      "babel-plugin-styled-components": "^1.10.0",
+      "babel-preset-gatsby":"^0.2.13",
+      "eslint-plugin-jsx-a11y": "^6.2.1",
+      "eslint-plugin-react": "^7.13.0",
+      "eslint": "^5.16.0",
+      "eslint-config-airbnb": "^17.1.0",
+      "docz": "^2.0.0-rc.41",
+      "webpack": "^4.30.0"
+    },
+    "dependencies": {
+      "react": "^16.9.0",
+      "react-dom": "^16.9.0",
+      "prop-types": "^15.7.2",
+      "polished": "^3.2.0",
+      "styled-components": "^4.2.0"
+    },
+    "resolutions": {
+      "scheduler": "0.15.0"
+    }
+  }
