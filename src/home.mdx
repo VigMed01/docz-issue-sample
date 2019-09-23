@@ -4,7 +4,7 @@ route: /
 ---
 import { Playground, Props } from 'docz';
 // Components
-import Logo from './components/alert/alert.js';
+import Alert from './components/alert/alert.js';
 // Theming
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import themeTest from './theming/themeTest.js'
@@ -14,11 +14,11 @@ import themeTest from './theming/themeTest.js'
 
 * This is a sample project showing the issue of not being able to get babel to function correctly.
 
-## Logo
-<Props of={Logo} />
+## Alert
+<Props of={Alert} />
 
 <Playground>
     <ThemeProvider theme={themeTest}>
-        <Logo />
+        <Alert />
     </ThemeProvider>
 </Playground>
