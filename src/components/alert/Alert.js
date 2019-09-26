@@ -2,7 +2,7 @@ import React from 'react';
 import { oneOfType, element, string, shape } from 'prop-types';
 
 // styles
-import { Container } from './alert.styles';
+import { Container } from './Alert.styles';
 
 function Alert(props) {
     const { children, intent } = props;

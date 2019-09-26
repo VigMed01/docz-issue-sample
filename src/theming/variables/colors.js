@@ -1,5 +1,3 @@
-import { adjustHue, complement, lighten } from 'polished';
-
 export const core = {
     // Whites
     color_white_1: '#FFFFFF',

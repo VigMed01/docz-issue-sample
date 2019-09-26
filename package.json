@@ -33,7 +33,7 @@
       "eslint-plugin-react": "^7.13.0",
       "eslint": "^5.16.0",
       "eslint-config-airbnb": "^17.1.0",
-      "docz": "^2.0.0-rc.41",
+      "docz": "^2.0.0-rc.43",
       "webpack": "^4.30.0"
     },
     "dependencies": {
